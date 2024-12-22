@@ -1,0 +1,24 @@
+body.dark {
+  background-color: #121212; /* Standard-Dunkelmodus-Hintergrund */
+  color: #fff; /* Weißer Text für besseren Kontrast */
+
+  .q-page-container {
+    background-color: #1e1e1e;
+  }
+
+  .q-item-section,
+  .q-toolbar-title {
+    color: #fff; /* Weißer Text für Menüs, Toolbar usw. */
+  }
+
+  .q-btn {
+    color: #fff; /* Buttons sollen im Dark Mode weiß sein */
+  }
+
+  .my-custom-component {
+    background-color: #333; /* Deine spezifische Komponente */
+    color: #fff;
+  }
+
+  /* Weitere Elemente anpassen */
+}
